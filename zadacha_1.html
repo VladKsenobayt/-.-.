@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<meta charset "utf-8">
+		<title>Задача_1</title>
+		<style type="text/css">
+			textarea {
+			width: 300px;
+			height: 50px;
+			background: #f6f6f6;
+			border: 1px solid #cecece;
+			border-radius: 8px 0 0 0;
+			padding: 8px 0 8px 10px;
+			}
+			.button{
+			background-color:#ffffff;
+			background: #6485fa;
+			}
+		</style>
+	</head>
+	<body style= "background-color: rgb(0, 191, 255);">
+	<form>
+		<h1 align="center">Good Vibes Form</h1>
+		<h2 align="center">Tell us something positive that happend to you today</h2>
+		<center><pre>Name <input type="text" method="post" placeholder="Введите ваше имя"></pre>
+		<pre>Email <input type="email" method="post" placeholder="Введите вашу почту"></pre>
+		<pre>How good was it? <input type="number" method="post" min="1" max="12" placeholder="Введите число от 1 до 12"></pre>
+		<pre>Where did it happend? <select><option selected value="s1">3 корпус</option><option value="s2">2 корпус</option></select></pre>
+
+		<p>At what time of day did it happend?
+		<input name="rez" type="radio" value="mo"> Morning</p>
+		<p><input name="rez" type="radio" value="af"> Afternoon</p>
+		<p><input name="rez" type="radio" value="so"> Evening</p>
+ 
+		<p>What emotion did you experience?
+		<input type="checkbox" name="a" value="angry"> angry</p>
+		<p><input type="checkbox" name="a" value="happy" checked> happy</p>
+		<p><input type="checkbox" name="a" value="love" checked> love</p>
+		<p><input type="checkbox" name="a" value="sad"> sad</p>
+
+		<pre>Please decribe your positive experiance<textarea></textarea></pre>
+
+		<input type="submit" value="Submit" class="button"></center>
+	</form>
+	</body>
+</html>
