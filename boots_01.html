@@ -1,0 +1,109 @@
+<html>
+	<head>
+		<meta charset "utf-8">
+		<title>Задача_1</title>
+		<style type="text/css">
+			textarea {
+			width: 300px;
+			height: 50px;
+			background: #f6f6f6;
+			border: 1px solid #cecece;
+			border-radius: 8px 0 0 0;
+			padding: 8px 0 8px 10px;
+			}
+			.button{
+			background-color:#ffffff;
+			background: #6485fa;
+			}
+		</style>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+		<nav class="navbar" style="background-color: #e3f2fd;">
+		<span class="navbar-text h1">Good Vibes Form</span>
+		<form>
+			<input type="search" placeholder="Search" aria-label="Search">
+			<button type="submit">Search</button>
+		</form>
+		</nav>
+
+	</head>
+	<body style= "background-color: rgb(0, 191, 255);">
+	<form>
+		<h1 align="center">Good Vibes Form</h1>
+		<h2 align="center">Tell us something positive that happend to you today</h2>
+		
+
+		<div class="container">
+			<div class="row">
+			<div class="col">
+			<pre align="right">Name</pre>
+			</div>
+			<div class="col">
+			<pre><input type="text" method="post" placeholder="Введите ваше имя"></pre>
+			</div>
+			</div>
+			<div class="row">
+			<div class="col">
+			<pre align="right">Email</pre>
+			</div>
+			<div class="col">
+			<pre><input type="email" method="post" placeholder="Введите вашу почту"></pre>
+			</div>
+			</div>
+		
+			<div class="row">
+			<div class="col">
+			<pre align="right">How good was it?</pre>
+			</div>
+			<div class="col">
+			<pre><input type="number" method="post" min="1" max="12" placeholder="Введите число от 1 до 12"></pre>
+			</div>
+			</div>
+		
+			<div class="row">
+			<div class="col">
+			<pre align="right">Where did it happend?</pre>
+			</div>
+			<div class="col">
+			<pre><select><option selected value="s1">3 корпус</option><option value="s2">2 корпус</option></select></pre>
+			</div>
+			</div>
+	
+			<div class="row">
+			<div class="col">
+			<p align="right">At what time of day did it happend?</p>
+			</div>
+			<div class="col">
+			<p><input name="rez" type="radio" value="mo"> Morning</p>
+			<p><input name="rez" type="radio" value="af"> Afternoon</p>
+			<p><input name="rez" type="radio" value="so"> Evening</p>
+			</div>
+			</div>
+			<div class="row">
+			<div class="col">
+			<p align="right">What emotion did you experience?</p>
+			</div>
+			<div class="col">
+			<p><input type="checkbox" name="a" value="angry"> angry</p>
+			<p><input type="checkbox" name="a" value="happy" checked> happy</p>
+			<p><input type="checkbox" name="a" value="love" checked> love</p>
+			<p><input type="checkbox" name="a" value="sad"> sad</p>
+			</div>
+			</div>
+
+			<div class="row">
+			<div class="col">
+			<pre align="right">Please decribe your positive experiance</pre>
+			</div>
+			<div class="col">
+			<textarea></textarea>
+			</div>
+			</div>
+			<pre align="center"><input type="submit" value="Submit" class="button"></pre>
+
+		</div>
+
+
+	</form>
+	</body>
+</html>
