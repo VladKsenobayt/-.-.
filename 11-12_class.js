@@ -48,11 +48,3 @@ city1.getCity = getObj;
 city2.getCity = getObj;
 console.log(city1.getCity())
 console.log(city2.getCity())
-console.log("zadanie 6");
-
-console.log("zadanie 7");
-
-console.log("zadanie 8");
-
-console.log("zadanie 9");
-
