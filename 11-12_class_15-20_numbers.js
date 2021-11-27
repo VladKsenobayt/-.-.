@@ -6,11 +6,11 @@ function Card(from, to){
     this.from=from;
     this.to=to;
     this.show=function(){
-        return('${this.from}+,+${this.to}')
+        return `${this.from},${this.to}`;
     }
 }
 let c1 = new Card("Екатеренбург", "Москва");
-console.log(c1.show);
+console.log(c1.show());
 //alert(c1.show);
 
 console.log("zadanie 16");
@@ -22,7 +22,7 @@ function Human(name, age, height){
     this.age = age,
     this.height = height,
     this.getInfo=function(){
-        return('${this.name}+,+${this.age}+,+${this.height}')
+        return(`${this.name}+,+${this.age}+,+${this.height}`)
     }   
 }
 Human.prototype = {
