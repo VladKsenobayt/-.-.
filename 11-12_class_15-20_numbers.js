@@ -56,9 +56,9 @@ function sortByName (mass) {
                 per = true;
             }
         }
-    return(mass)
-    }
     
+    }
+    return(mass)
 }
 function sortByHeight (mass){
     dlina=mass.length;
@@ -66,6 +66,7 @@ function sortByHeight (mass){
     while (per){
         per=false;
         for (i = 1; i < dlina; i++) {
+            console.log(mass[i].height, mass[i-1].height);
             if  (mass[i].height >mass[i-1].height) {
                 per = mass[i];
                 mass[i]= mass[i-1];
@@ -73,9 +74,9 @@ function sortByHeight (mass){
                 per = true;
             }
         }
-    return(mass)
-    }
     
+    }
+    return(mass)
 }
 console.log(sortByHeight(humans));
 console.log("zadanie 18");
