@@ -66,7 +66,7 @@ function sortByHeight (mass){
     while (per){
         per=false;
         for (i = 1; i < dlina; i++) {
-            console.log(mass[i].height, mass[i-1].height);
+            //console.log(mass[i].height, mass[i-1].height);
             if  (mass[i].height >mass[i-1].height) {
                 per = mass[i];
                 mass[i]= mass[i-1];
