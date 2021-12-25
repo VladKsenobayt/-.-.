@@ -1,0 +1,35 @@
+html, body{
+    margin:0px;
+    padding:0px;
+
+}
+.vuvod{
+    background-color: aliceblue;
+    border: 1px solid #cfcfcf;
+    cursor: pointer;
+    float: left;
+    font-size: 100px;
+    height: 100px;
+    text-align: center;
+    width: 100%;
+}
+.poput{
+    background-color: aliceblue;
+    border: 1px solid #cfcfcf;
+    cursor: pointer;
+    float: left;
+    font-size: 100px;
+    height: 100px;
+    text-align: center;
+    width: 100%;
+}
+.ichei{
+    background-color: aliceblue;
+    border: 1px solid #cfcfcf;
+    cursor: pointer;
+    float: left;
+    font-size: 100px;
+    height: 148px;
+    text-align: center;
+    width: 148px;
+}
